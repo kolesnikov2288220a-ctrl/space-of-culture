@@ -23,37 +23,38 @@
             font-family: var(--font-serif);
             line-height: 1.6;
             -webkit-font-smoothing: antialiased;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
         }
 
         header {
-            border-top: 3px solid var(--border-color);
             border-bottom: 1px solid var(--border-color);
-            padding: 30px 0 25px 0;
+            padding-bottom: 25px;
             margin-bottom: 60px;
         }
 
-        .university-badge {
-            display: inline-flex;
+        .header-top {
+            display: flex;
             align-items: center;
             gap: 12px;
-            background-color: var(--text-color);
-            color: var(--bg-color);
-            padding: 6px 14px;
-            font-family: var(--font-sans);
-            font-size: 11px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.18em;
-            margin-bottom: 20px;
+            margin-bottom: 12px;
         }
 
-        .university-badge .red-accent {
-            color: #e65c5c;
+        .university-badge {
+            font-family: var(--font-sans);
+            font-size: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: var(--meta-color);
+            border: 1px solid var(--meta-color);
+            padding: 2px 7px;
+            border-radius: 2px;
         }
 
         .brand {
             font-family: var(--font-sans);
-            font-size: 44px;
+            font-size: 38px;
             font-weight: 800;
             letter-spacing: -0.02em;
             text-transform: uppercase;
@@ -66,7 +67,7 @@
             font-size: 11px;
             text-transform: uppercase;
             letter-spacing: 0.15em;
-            color: var(--meta-color);
+            color: #666;
         }
 
         .manifesto {
@@ -103,6 +104,16 @@
             margin-bottom: 15px;
         }
 
+        .issue-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .issue-list li {
+            margin-bottom: 14px;
+        }
+
         .issue-link {
             display: inline-block;
             font-size: 19px;
@@ -129,15 +140,37 @@
             justify-content: space-between;
             color: #666;
         }
+
+        @media (max-width: 600px) {
+            body {
+                margin: 30px auto;
+                padding: 0 18px;
+                font-size: 16px;
+            }
+            header {
+                padding-bottom: 18px;
+                margin-bottom: 35px;
+            }
+            .brand {
+                font-size: 28px;
+            }
+            .manifesto {
+                font-size: 16px;
+                margin-bottom: 40px;
+            }
+            footer {
+                margin-top: 50px;
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
     </style>
 </head>
 <body>
 
     <header>
-        <div class="university-badge">
-            <span>Spatium Culturae</span>
-            <span class="red-accent">///</span>
-            <span>Academia</span>
+        <div class="header-top">
+            <span class="university-badge">Spatium Culturae /// Academia</span>
         </div>
         <div class="brand">Space of Culture</div>
         <div class="tagline-meta">Humanities & Cultural Studies · Independent Journal</div>
@@ -159,17 +192,28 @@
             <h2 class="section-title">Архив / Archive</h2>
 
             <div class="archive-year">2027</div>
-            <p>
-                <a href="issues/2027-01.html" class="issue-link">
-                    № 1 · Весна / Spring 2027
-                </a>
-            </p>
+            <ul class="issue-list">
+                <li>
+                    <a href="issues/2027-02.html" class="issue-link">
+                        № 2 · 67
+                    </a>
+                </li>
+                <li>
+                    <a href="issues/2027-01.html" class="issue-link">
+                        № 1 · Spring 2027
+                    </a>
+                </li>
+            </ul>
         </section>
     </main>
 
     <footer>
         <div>Space of Culture</div>
         <div>2027</div>
+    </footer>
+
+</body>
+</html>
     </footer>
 
 </body>
