@@ -19,12 +19,27 @@
             margin: 80px auto;
             padding: 0 40px;
             background-color: var(--bg-color);
+            background-image: radial-gradient(circle at 50% 30%, #fbfaf7 0%, var(--bg-color) 80%);
             color: var(--text-color);
             font-family: var(--font-serif);
             line-height: 1.6;
             -webkit-font-smoothing: antialiased;
             overflow-wrap: break-word;
             word-wrap: break-word;
+            position: relative;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            pointer-events: none;
+            z-index: 999;
+            opacity: 0.22;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
         }
 
         header {
@@ -111,21 +126,41 @@
         }
 
         .issue-list li {
-            margin-bottom: 14px;
+            margin-bottom: 16px;
         }
 
         .issue-link {
+            position: relative;
             display: inline-block;
             font-size: 19px;
             color: var(--text-color);
             text-decoration: none;
-            border-bottom: 1px solid var(--text-color);
             padding-bottom: 2px;
-            transition: opacity 0.2s;
+            transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s ease;
+        }
+
+        .issue-link::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 1px;
+            bottom: 0;
+            left: 0;
+            background-color: var(--text-color);
+            transform: scaleX(0);
+            transform-origin: bottom right;
+            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
         }
 
         .issue-link:hover {
-            opacity: 0.6;
+            transform: translateX(4px);
+            color: var(--meta-color);
+        }
+
+        .issue-link:hover::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+            background-color: var(--meta-color);
         }
 
         footer {
@@ -170,10 +205,10 @@
 
     <header>
         <div class="header-top">
-            <span class="university-badge">Spatium Culturae /// Academia</span>
+            <span class="university-badge">Spatium Culturae /// Ala-Too International University</span>
         </div>
         <div class="brand">Space of Culture</div>
-        <div class="tagline-meta">Humanities & Cultural Studies · Independent Journal</div>
+        <div class="tagline-meta">Humanities & Cultural Studies · Journal</div>
     </header>
 
     <main>
@@ -210,10 +245,6 @@
     <footer>
         <div>Space of Culture</div>
         <div>2027</div>
-    </footer>
-
-</body>
-</html>
     </footer>
 
 </body>
