@@ -14,6 +14,7 @@
             --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         }
 
+        /* 1. БУМАЖНАЯ ТЕКСТУРА И ШУМ */
         body {
             max-width: 820px;
             margin: 80px auto;
@@ -29,6 +30,7 @@
             position: relative;
         }
 
+        /* Наложение шума (grain) через SVG */
         body::before {
             content: "";
             position: fixed;
@@ -129,6 +131,7 @@
             margin-bottom: 16px;
         }
 
+        /* 2. АНИМАЦИЯ И СТИЛЬ ССЫЛОК */
         .issue-link {
             position: relative;
             display: inline-block;
@@ -205,10 +208,10 @@
 
     <header>
         <div class="header-top">
-            <span class="university-badge">Spatium Culturae /// Ala-Too International University</span>
+            <span class="university-badge">Spatium Culturae /// Academia</span>
         </div>
         <div class="brand">Space of Culture</div>
-        <div class="tagline-meta">Humanities & Cultural Studies · Journal</div>
+        <div class="tagline-meta">Humanities & Cultural Studies · Independent Journal</div>
     </header>
 
     <main>
@@ -228,17 +231,22 @@
 
             <div class="archive-year">2027</div>
             <ul class="issue-list">
+                <!-- Сюда можешь добавлять ссылки на выпуски, когда они появятся -->
+            </ul>
+        </section>
+        <section>
+        <section>
+            <h2 class="section-title">Архив / Archive</h2>
+
+            <div class="archive-year">2027</div>
+            <ul class="issue-list">
                 <li>
-                    <a href="issues/2027-02.html" class="issue-link">
-                        № 2 · 67
-                    </a>
-                </li>
-                <li>
-                    <a href="issues/2027-01.html" class="issue-link">
-                        № 1 · Spring 2027
+                    <a href="issue-0.html" class="issue-link">
+                        № 0 · Pilot Issue (Пилотный выпуск)
                     </a>
                 </li>
             </ul>
+        </section>
         </section>
     </main>
 
