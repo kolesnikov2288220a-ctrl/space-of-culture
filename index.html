@@ -14,7 +14,6 @@
             --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         }
 
-        /* 1. БУМАЖНАЯ ТЕКСТУРА И ШУМ */
         body {
             max-width: 820px;
             margin: 80px auto;
@@ -24,13 +23,10 @@
             color: var(--text-color);
             font-family: var(--font-serif);
             line-height: 1.6;
-            -webkit-font-smoothing: antialiased;
-            overflow-wrap: break-word;
-            word-wrap: break-word;
             position: relative;
         }
 
-        /* Наложение шума (grain) через SVG */
+        /* Текстура бумаги */
         body::before {
             content: "";
             position: fixed;
@@ -47,17 +43,11 @@
         header {
             border-bottom: 1px solid var(--border-color);
             padding-bottom: 25px;
-            margin-bottom: 60px;
+            margin-bottom: 40px;
         }
 
-        .header-top {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            margin-bottom: 12px;
-        }
-
-        .university-badge {
+        .header-tag {
+            display: inline-block;
             font-family: var(--font-sans);
             font-size: 10px;
             font-weight: 700;
@@ -65,105 +55,82 @@
             letter-spacing: 0.15em;
             color: var(--meta-color);
             border: 1px solid var(--meta-color);
-            padding: 2px 7px;
-            border-radius: 2px;
+            padding: 4px 8px;
+            margin-bottom: 12px;
         }
 
-        .brand {
+        .site-title {
             font-family: var(--font-sans);
-            font-size: 38px;
+            font-size: 36px;
             font-weight: 800;
-            letter-spacing: -0.02em;
             text-transform: uppercase;
-            line-height: 1.0;
-            margin-bottom: 10px;
+            letter-spacing: 0.05em;
+            margin-bottom: 6px;
+            color: var(--text-color);
         }
 
-        .tagline-meta {
+        .site-subtitle {
             font-family: var(--font-sans);
             font-size: 11px;
             text-transform: uppercase;
             letter-spacing: 0.15em;
-            color: #666;
+            color: #555;
         }
 
-        .manifesto {
-            max-width: 680px;
-            font-size: 18px;
-            margin-bottom: 70px;
+        .intro-ru {
+            font-size: 16px;
+            margin-bottom: 20px;
         }
 
-        .manifesto p {
-            margin-bottom: 16px;
-        }
-
-        .manifesto .en {
+        .intro-en {
+            font-size: 16px;
             font-style: italic;
-            color: #4a4a4a;
-            font-size: 17px;
+            color: #444;
+            margin-bottom: 50px;
         }
 
-        h2.section-title {
+        .section-title {
             font-family: var(--font-sans);
-            font-size: 13px;
+            font-size: 12px;
+            font-weight: 700;
             text-transform: uppercase;
             letter-spacing: 0.12em;
             border-bottom: 1px solid var(--border-color);
-            padding-bottom: 8px;
-            margin-bottom: 35px;
-            font-weight: 700;
+            padding-bottom: 6px;
+            margin-top: 40px;
+            margin-bottom: 20px;
         }
 
-        .archive-year {
+        .section-title a {
+            color: var(--text-color);
+            text-decoration: none;
+        }
+
+        .section-title a:hover {
+            color: var(--meta-color);
+        }
+
+        .year-title {
             font-family: var(--font-sans);
-            font-size: 20px;
+            font-size: 15px;
             font-weight: 700;
             margin-bottom: 15px;
         }
 
-        .issue-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
+        .issue-link-block {
+            margin-bottom: 25px;
         }
 
-        .issue-list li {
-            margin-bottom: 16px;
-        }
-
-        /* 2. АНИМАЦИЯ И СТИЛЬ ССЫЛОК */
-        .issue-link {
-            position: relative;
-            display: inline-block;
-            font-size: 19px;
+        .issue-link-block a {
+            font-size: 17px;
             color: var(--text-color);
             text-decoration: none;
-            padding-bottom: 2px;
-            transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s ease;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
         }
 
-        .issue-link::after {
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 1px;
-            bottom: 0;
-            left: 0;
-            background-color: var(--text-color);
-            transform: scaleX(0);
-            transform-origin: bottom right;
-            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-
-        .issue-link:hover {
-            transform: translateX(4px);
-            color: var(--meta-color);
-        }
-
-        .issue-link:hover::after {
-            transform: scaleX(1);
-            transform-origin: bottom left;
-            background-color: var(--meta-color);
+        .issue-link-block a:hover {
+            border-color: var(--text-color);
         }
 
         footer {
@@ -176,78 +143,42 @@
             letter-spacing: 0.1em;
             display: flex;
             justify-content: space-between;
+            align-items: flex-start;
             color: #666;
-        }
-
-        @media (max-width: 600px) {
-            body {
-                margin: 30px auto;
-                padding: 0 18px;
-                font-size: 16px;
-            }
-            header {
-                padding-bottom: 18px;
-                margin-bottom: 35px;
-            }
-            .brand {
-                font-size: 28px;
-            }
-            .manifesto {
-                font-size: 16px;
-                margin-bottom: 40px;
-            }
-            footer {
-                margin-top: 50px;
-                flex-direction: column;
-                gap: 8px;
-            }
         }
     </style>
 </head>
 <body>
 
     <header>
-        <div class="header-top">
-            <span class="university-badge">Spatium Culturae /// Academia</span>
-        </div>
-        <div class="brand">Space of Culture</div>
-        <div class="tagline-meta">Humanities & Cultural Studies · Independent Journal</div>
+        <div class="header-tag">SPATIUM CULTURAE /// ACADEMIA</div>
+        <div class="site-title">SPACE OF CULTURE</div>
+        <div class="site-subtitle">HUMANITIES & CULTURAL STUDIES · INDEPENDENT JOURNAL</div>
     </header>
 
     <main>
-        <section class="manifesto">
-            <p>
-                Студенческий журнал, посвященный гуманитарным наукам и культуре. 
-                Наша цель: развитие диалога и мысли в культурном пространстве.
-            </p>
-            <p class="en">
-                An undergraduate journal dedicated to humanities and culture. 
-                Our goal is to foster dialogue and thought within the cultural space.
-            </p>
-        </section>
+        <div class="intro-ru">
+            Студенческий журнал, посвященный гуманитарным наукам и культуре. Наша цель: развитие диалога и мысли в культурном пространстве.
+        </div>
+        <div class="intro-en">
+            An undergraduate journal dedicated to humanities and culture. Our goal is to foster dialogue and thought within the cultural space.
+        </div>
 
-        <section>
-            <h2 class="section-title">Архив / Archive</h2>
+        <!-- Первая строка теперь Для авторов -->
+        <div class="section-title">
+            <a href="authors.html">ДЛЯ АВТОРОВ / FOR AUTHORS</a>
+        </div>
 
-            <div class="archive-year">2027</div>
-            <ul class="issue-list">
-                <!-- Сюда можешь добавлять ссылки на выпуски, когда они появятся -->
-            </ul>
-        </section>
-        <section>
-        <section>
-            <h2 class="section-title">Архив / Archive</h2>
+        <!-- Ниже идет архив -->
+        <div class="section-title">
+            АРХИВ / ARCHIVE
+        </div>
 
-            <div class="archive-year">2027</div>
-            <ul class="issue-list">
-                <li>
-                    <a href="issue-0.html" class="issue-link">
-                        № 0 · Pilot Issue (Пилотный выпуск)
-                    </a>
-                </li>
-            </ul>
-        </section>
-        </section>
+        <div class="year-title">2026</div>
+
+        <div class="issue-link-block">
+            <a href="issue-0.html">№ 0 · Pilot Issue (Пилотный выпуск)</a>
+        </div>
     </main>
 
     <footer>
