@@ -44,7 +44,7 @@
             border-bottom: 1px solid var(--border-color);
             padding-bottom: 25px;
             margin-bottom: 40px;
-            position: relative; /* Нужно для позиционирования логотипа справа */
+            position: relative; /* Нужно для позиционирования логотипа справа на ПК */
         }
 
         .header-tag {
@@ -78,7 +78,7 @@
             color: #555;
         }
 
-        /* Логотип для ПК (твои настройки сохранены) */
+        /* Логотип для ПК (твои настройки) */
         .header-logo {
             position: absolute;
             right: 1px;
@@ -93,15 +93,16 @@
             header {
                 position: relative;
                 text-align: center;
-                padding-top: 110px; /* создаем место сверху для логотипа */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
             }
 
             .header-logo {
-                position: absolute;
-                top: 1px;
-                left: 50%;
-                transform: translateX(-50%); /* центрируем логотип по горизонтали */
-                width: 230px; /* ИСПРАВЛЕНО: уменьшаем размер логотипа для мобилок */
+                position: static; /* убираем абсолютное позиционирование, чтобы логотип встал сверху */
+                width: 140px;     /* аккуратный размер для мобилки */
+                margin-bottom: 15px; /* отступ от логотипа до текста заголовка */
+                transform: none;
             }
         }
 
@@ -179,12 +180,12 @@
 <body>
 
     <header>
+        <!-- Логотип стоит первым, поэтому на мобилке он окажется сверху над текстом -->
+        <img src="logo.png" alt="Logo" class="header-logo">
+
         <div class="header-tag">SPATIUM CULTURAE /// ACADEMIA</div>
         <div class="site-title">SPACE OF CULTURE</div>
         <div class="site-subtitle">HUMANITIES & CULTURAL STUDIES · INDEPENDENT JOURNAL</div>
-        
-        <!-- Логотип -->
-        <img src="logo.png" alt="Logo" class="header-logo">
     </header>
 
     <main>
