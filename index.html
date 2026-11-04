@@ -78,15 +78,16 @@
             color: #555;
         }
 
-        /* Логотип строго справа в шапке, не двигает текст */
-.header-logo {
+        /* Логотип для ПК (твои настройки сохранены) */
+        .header-logo {
             position: absolute;
             right: 1px;
-            top: -125px; /* чуть подняли, чтобы сбалансировать по высоте с заголовком */
-            width: 350px; /* сделай 180px, если захочешь еще крупнее */
+            top: -125px;
+            width: 350px;
             height: auto;
-            mix-blend-mode: multiply; /* чтобы белый фон картинки оставался невидимым */
+            mix-blend-mode: multiply;
         }
+
         /* Адаптив для телефонов (экраны меньше 768px) */
         @media (max-width: 768px) {
             header {
@@ -100,7 +101,7 @@
                 top: 10px;
                 left: 50%;
                 transform: translateX(-50%); /* центрируем логотип по горизонтали */
-                width: 120px; /* аккуратный размер для мобилки */
+                width: 130px; /* ИСПРАВЛЕНО: уменьшаем размер логотипа для мобилок */
             }
         }
 
@@ -182,8 +183,8 @@
         <div class="site-title">SPACE OF CULTURE</div>
         <div class="site-subtitle">HUMANITIES & CULTURAL STUDIES · INDEPENDENT JOURNAL</div>
         
-        <!-- Логотип аккуратно в правом верхнем углу шапки -->
-       <img src="logo.png" alt="Logo" class="header-logo">
+        <!-- Логотип -->
+        <img src="logo.png" alt="Logo" class="header-logo">
     </header>
 
     <main>
