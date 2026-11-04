@@ -216,130 +216,52 @@ const articlesData = {
             <p>Based on the survey data, the study finds out 4 essential pillars that must be addressed to achieve sustainability in Kyrgyzstan.</p>
             <ol>
                 <li><strong>Environmental Sustainability:</strong> In Bishkek, the most pressing environmental issue is air pollution, particularly during the winter heating season. Sustainable development requires a shift toward renewable energy sources and the protection of "green wedges" — places which can allow for natural ventilation. Following many models of integrating nature into the city life, Bishkek must prioritize the restoration of its botanical gardens and irrigation canals to combat the "urban heat island" effect [2].</li>
-                <li><strong>Transport and Mobility:</strong> A sustainable city moves people, not cars [3]. People's dependence on personal vehicles has led to congestion and the inability to get out of traffic jams for hours. To solve this problem, the Government has invested in large buses, but it is also necessary to provide conditions and a special line for public transport. This way, people will be more attracted, as public transport moves faster and costs are lower. Copenhagen also decided to combat this problem by using bicycles, making a huge network of paths, which led to 62% of people who commute to work by bike.</li>
-                <li><strong>Social Well-being:</strong> Sustainability is as much about people as it is about planets. Social well-being in a city is measured by the accessibility of public spaces. A sustainable Bishkek must ensure that parks, libraries, and squares are inclusive and safe for all demographics [3]. This aligns with the “Slow Movement”, which advocates for cultural shift toward slowing down the pace of life in urban areas. The “Slow Movement” was originated in Italy in the 1980s, as of late 2025, there are over 300 member cities globally. On the example of this movement, by creating “Slow spaces” cities can foster community engagement and reduce the psychological stress associated with modern metropolitan living. Local events such as Sary Kızdın Toyu, Shyrdak Festival, AIU Fest, and Pilav Kunu reflect the principles of the Slow Movement by creating spaces for social interaction and cultural expression. In line with SDG 11 they support social sustainability by strengthening community ties and promoting inclusive urban life. From a philological perspective, these events also act as communicative environments where cultural meanings and identities are actively constructed and shared although they are not formally a part of global idea of slow city and food movements. One more example, which was found is a constant food fair which is performed every weekends on Abdymomunov street. Food fair builds sustainable culture and communication, which can be an analogy of Slow City and Slow food movement.</li>
-                <li><strong>Economic Viability:</strong> Finally, a city must be economically sustainable to thrive. This means supporting local businesses and creating "circular economies" where waste is minimized. Investing in green technology and energy-efficient building renovations provides long-term economic benefits by reducing utility costs and creating new, "green" jobs within the community.</li>
+                <li><strong>Transport and Mobility:</strong> The dominance of private cars and minibuses (marshrutkas) creates chronic traffic jams and emissions. Transitioning to sustainable transport means expanding public transport lines, creating safe bicycle lanes, and promoting walkable neighborhoods ("15-minute city" concept) [3].</li>
+                <li><strong>Social Well-being:</strong> Sustainable cities must be inclusive. Bishkek lacks accessible infrastructure for people with disabilities, and public recreational spaces are unevenly distributed. Creating equal access to parks, libraries, and cultural hubs is essential for social cohesion.</li>
+                <li><strong>Economic Viability:</strong> Decentralization is key. By developing economic hubs outside the capital, Kyrgyzstan can reduce internal migration pressure on Bishkek while fostering regional prosperity.</li>
             </ol>
 
             <h2>Conclusion</h2>
-            <p>The path to a sustainable Bishkek is not just copying Western models, but also adapting the principles of sustainability to local conditions. Paying attention to every aspect, and engaging, as well as raising awareness of the residents to the ecosystem and the solution. Not only through the efforts of the State, but also through the joint efforts of the residents, we can transform the capital from an overloaded center into a harmonious community. The path set by SDG 11 is imperative for the viability of future generations of the people.</p>
-
-            <h2>References</h2>
-            <ul>
-                <li>[1] United Nations. (2018). <em>Tracking Progress Towards SDG 11: Synthesis Report</em>. UN-Habitat.</li>
-                <li>[2] Lehmann, S. (2010). <em>The Principles of Green Urbanism: Transforming the City for Sustainability</em>. Earthscan.</li>
-                <li>[3] Gehl, J. (2010). <em>Cities for People</em>. Island Press.</li>
-                <li>[4] Honoré, C. (2004). <em>In Praise of Slowness: Challenging the Cult of Speed</em>. HarperOne.</li>
-            </ul>
-        `
-    },
-
-    "gender-inequality-sdg5": {
-        issue: "Пилотный выпуск №0",
-        title: "Gender Inequality in Society and Its Representation in Literature",
-        author: "Bodbaeva Cholpon Beishekeevna, Aidarova Ravshan Danilbekovna, Nazaralieva Aisezim Makhamatzhanovna (Ala-Too International University)",
-        content: `
-            <h2>Abstract</h2>
-            <p>This article is dedicated to the 5th aim of Sustainable Development Goals through the lens of philology concept and examines how proverbs, literature and language can shape society’s view of relationships with people. In this work the authors look at the issue of stereotypical expressions, how they impact on female’s life. Furthermore, the questionnaire was conducted among women and men, including members of the book club of AIU to find out the influence of literature towards women. This article highlights Kyrgyz women writers works and analyses how they contribute to society and official statistical data. Which will lead to clear understanding of importance of Sustainable Development Goal 5: Gender Equality.</p>
-            <p><strong>Key words:</strong> gender inequality, proverbs, discrimination, female.</p>
-
-            <h2>Introduction</h2>
-            <p>One of the main problems in society is discrimination against people by their gender and unawareness of its effect on them. People’s rights in Kyrgyzstan are proclaimed in codes equally for men and women. However, domestic violence, "ala-kachuu" which means bride kidnapping, early marriage and physical abuse are still issue for girls and women [1].</p>
-            <p>The concept of Gender Inequality was discovered in 1980 (Jane Scott). It can be characterized as a system, in which social groups (women and men) have persistent differences, which appeared due to the unequal opportunities in society [2]. A misconception of culture, tradition and religion can be cause of influencing female on their choices, for instance, young girls might be forced to stay with man, who kidnapped her, because it is shame if she comes back her home.</p>
-
-            <h2>Methodology & Literary Analysis</h2>
-            <p>Proverbs typically consisted of traditional foundations, which came from ancestors. Kyrgyz proverbs contain stereotypical views, where men are extolled by their strength and cognitive dominance, while women are often associated with domestic comfort and chores. For example, <em>“Азансыз молдо болсо да, казансыз катын болбойт”</em> [3] can be translated as “Even if there is a mullah without azan, there is no woman without a cauldron.” This proverb means a mullah’s responsibility is to say azan, but his duty can be postponed, and he continues being a mullah, yet a woman is a woman if only she does “kelin’s” responsibilities. The second example is <em>“Баланы - жашынан, катынды - башынан”</em> [3]. It can be translated “Train a child from youth, and a wife from the very start” or another way of translation is “control the wife holding her head”. In this expression, a small child is compared to an adult woman who is capable to control herself, nevertheless the society does not treat as an independent person.</p>
-            
-            <p>Present status of Kyrgyzstan Literature makes an outstanding example of literature which reflects social attitudes in Central Asia. By analyzing and taking into consideration of our research some of the narratives can explore and make a point in this field, these narratives show the real barriers—such as violence, unpaid work and labor, stereotypes—that follow and, in some places, still represent present lives of woman in Kyrgyzstan [1].</p>
-            
-            <p>For our focus we choose literary works of <strong>Topchugul Shaidullaeva</strong>, <strong>Zuura Sooronbaeva</strong> and <strong>Mairamkan Abylkasymova</strong>. In their works these writers show woman struggles and use literature as a tool to reflect social issues from a private domestic or rural perspective into the public interest. Moreover, they are all known for their active participation in the topic of Gender Equality, specifically in the field of female rights.</p>
-
-            <p><strong>Topchugul Shaidullaeva’s</strong> first texts, published during her school years, were already distinguished by a keen sense of observation and a keen sense of language. She graduated from the Faculty of Journalism at Kyrgyz State University, later defended her PhD in sociology, and became an associate professor. Her life has been a dynamic journey: teaching, working in government agencies, and public activism. But at every stage, there is a thread that binds everything together: a love of words and a desire for justice. She didn't simply write; she listened and conveyed the voices of those rarely heard. Topchugul Zholdoshevna is one of those writers whose books never gather dust on shelves. <em>"Zhan Sherik," "Kyzyl Oeruk," "Balakan,"</em> and others have become landmarks in Kyrgyzstan's cultural life. For her creation of vibrant female characters and her profound understanding of human destiny, she was awarded the titles "Honored Cultural Figure" and "People's Writer of the Kyrgyz Republic." Her stories have been translated into Turkish, and an English-language collection, <em>"Carpet Weaver,"</em> is being prepared. But her contribution extends beyond literature. Topchugul Zholdoshevna writes scholarly works on gender issues, promotes cultural dialogue, and supports young authors. Internationally acclaimed films have been based on her works—<em>"Kelin Tash"</em> triumphed at film festivals in Los Angeles, Dubai, and Turkmenistan [5]. Topchugul Zholdoshevna's words are not only art, but they are also action. This is the voice of a woman, a writer, a mother, a researcher—a person who believes that the culture and soul of a people begin with an honest history. And she writes that history every day. For example, her short story <em>“Tractor Drivers”</em>. Working in this sphere as a tractor driver is physically hard and that is often thought to be the only man’s job in society. In this story the author makes a speculation on gender stereotypes, not only the woman did the hard work, but they also had to meet social expectations. During the harsh time woman had to be independent and break traditional roles of society. Topchugul Shaidullaeva emphasizes the importance of woman solidarity and support towards each other.</p>
-
-            <p><strong>Zuura Sooronbaeva</strong>, Kyrgyzstan's first female writer, national poet, and author of many books of Kyrgyz literature, was born on August 15, 1924, in the village of Zholkolot in the Ak-Suu district of the Issyk-Kul region, to a poor farmer family. In 1940, after graduating from high school, she began her career as a secretary and typist in the editorial office of the regional newspaper <em>"Ysyk-Kol Pravdasy."</em> "This newspaper is my university," the future famous writer liked to say. Zuura Sooronbaeva made her literary debut in 1947, when her poems <em>"Eki zhash," "Koreya kyzyna,"</em> and <em>"Kecheeki zhooker"</em> were initially published in <em>"Ysyk-Kol Pravdasy."</em> After a bright start, her works began to be published in national newspapers, magazines, and almanacs. Her first poetry collection, <em>"Menin Ayylym" ("My Ail")</em>, was published in 1960. Her most notable prose work, the novella <em>"Astra Gulu,"</em> was published in 1971 and was released in Russian under the title <em>"Autumn Flowers"</em> in 1979 [6]. Her Novel <em>“Чочун Киши” (Stranger)</em> was a national hit, this narrative raised questions about woman rights of choice on happiness despite harsh social opinion (эл эмне дейт). Through female protagonist she showed her fight of identity against family despotism. In general works of Zuura Sooronbaeva—it’s often a woman portrayed as a hard-working and trying to get a degree and professional realization, going through a double burden like household duties and work.</p>
-        `
-    },
-
-    "sdg-4-kyrgyzstan": {
-        issue: "Пилотный выпуск №0",
-        title: "ACHIEVING SDG 4 IN KYRGYZSTAN: THE ROLE OF DIGITAL ACCESS AND EDUCATIONAL CHALLENGES",
-        author: "Tashtanova Merim, Kyzalakova Malika (Second year students of Ala-Too International University) | Scientific supervisor: Nargiza Cherikbaeva",
-        content: `
-            <h2>Abstract</h2>
-            <p>This study examines the challenges of achieving Sustainable Development Goal 4 (SDG 4) in Kyrgyzstan, focusing on the role of digital access in higher education. It identifies key issues such as teacher shortages, overcrowded schools, outdated teaching methods, and inequality between urban and rural areas.</p>
-            <p>The research incorporates student-generated data from surveys conducted at Osh State University and Ala-Too International University. The findings show that most students actively use digital devices for learning and report a positive impact of technology on their academic performance. However, unequal access to stable internet and digital resources remains a significant barrier.</p>
-            <p>The study highlights the importance of integrating digital technologies and modern pedagogical approaches to improve education quality. It suggests practical solutions, including expanding digital infrastructure, supporting teachers, and strengthening institutional collaboration.</p>
-            <p>Overall, achieving SDG 4 in Kyrgyzstan requires a comprehensive approach that combines educational reform, technological development, and active stakeholder engagement.</p>
-            <p><strong>Keywords:</strong> Sustainable Development Goal 4; quality education; digital access; higher education; educational inequality; Kyrgyzstan; digital technologies; teacher shortage.</p>
-
-            <h2>Introduction</h2>
-            <p>Education is a fundamental driver of social and economic development. As United Nations (2015) states, “education is a key enabler for achieving all Sustainable Development Goals.” It contributes to economic growth, social cohesion, and equality. In Kyrgyzstan, improving education quality is particularly important due to the country’s young population. However, despite reforms, significant challenges remain, including inequality, lack of resources, and outdated teaching approaches.</p>
-            
-            <p><strong>Research Question:</strong> This study aims to answer the following research question: How does digital access influence the quality of higher education among philology students in Kyrgyzstan, and what challenges prevent the achievement of SDG 4?</p>
-
-            <h2>SDG Context</h2>
-            <p>SDG 4 focuses on inclusive and equitable quality education. It emphasizes not only access but also the development of skills necessary for the modern world. As UNESCO highlights, “education must prepare learners for active participation in a knowledge-based society.” Digital technologies and artificial intelligence play a key role in achieving this goal by enabling personalized learning, expanding access to information, and reducing educational inequality.</p>
-
-            <h2>Data Analysis and Key Challenges</h2>
-            <p>The findings reveal several interconnected challenges:</p>
-            <ol>
-                <li><strong>Teacher Shortages:</strong> Kyrgyzstan faces a serious shortage of qualified teachers, especially in STEM subjects. According to the Ministry of Education and Science of the Kyrgyz Republic (2025), over 1,300 teaching positions remain vacant[cite: 3, 4]. According to Minister Nadira Dzhusupbekova, the shortage of qualified teachers is particularly severe in STEM subjects, as well as in several other disciplines. The deficit of teaching staff is most acute in the capital city, Bishkek (493 vacancies), largely due to high levels of both external and internal migration, as well as the movement of teachers to private schools. Significant shortages are also observed in the Chui (292), Jalal-Abad (110), Batken (137), and Issyk-Kul (115) regions. In contrast, the situation is relatively more stable in Naryn (17), Talas (71), and Osh (58) regions, as well as in Osh city (42). This directly affects the quality of education and limits students’ academic development.</li>
-                <li><strong>Overcrowded Schools:</strong> Overcrowded schools significantly reduce learning effectiveness. In major cities, schools operate in multiple shifts, which decreases instructional time and increases teacher workload[cite: 5].</li>
-                <li><strong>Outdated Teaching Methods:</strong> Outdated teaching methods remain a major issue. Many schools still rely on traditional memorization-based approaches instead of developing critical thinking and practical skills. As highlighted in the presentation, “learning is not just about retaining knowledge, but also about developing the skills needed to thrive in today’s world”.</li>
-                <li><strong>Funding and Infrastructure Gaps:</strong> Insufficient funding and infrastructure, particularly in rural areas. Schools often lack modern equipment, digital tools, and stable internet access. This creates a significant gap between urban and rural education.</li>
-            </ol>
-            
-            <p>The student survey provides important insights into digital access. While 65.3% of students report stable internet access, 26.5% experience occasional difficulties, and 8.2% have no stable access at all. In addition, 89.8% of students use smartphones as their main learning device. This indicates high reliance on mobile technology. Furthermore, 79.6% of students believe that digital tools improve their learning outcomes, especially in language acquisition. However, technical issues, lack of digital skills, and low motivation still create barriers. These findings show that digital technologies have strong potential but require better infrastructure and support systems.</p>
-
-            <h2>Suggested Solutions</h2>
-            <p>To address these challenges, several practical and innovative solutions can be proposed:</p>
-            <ul>
-                <li>First, digital technologies and artificial intelligence should be more actively integrated into education. AI can support personalized learning, allowing students to study at their own pace and according to their individual needs.</li>
-                <li>Second, reducing the digital divide is essential. Expanding internet access and providing affordable devices will ensure equal opportunities for all students.</li>
-                <li>Third, mentorship programs and real-world practice should be introduced. These approaches help students develop practical skills and better prepare for the labour market. In addition, soft skills development, including critical thinking and communication, should become a priority in modern education.</li>
-                <li>Finally, global collaboration and partnerships between universities can improve knowledge exchange and educational quality. Expanding private education and improving infrastructure will also help reduce overcrowding.</li>
-            </ul>
-
-            <h2>Conclusion</h2>
-            <p>In conclusion, achieving SDG 4 in Kyrgyzstan requires a comprehensive approach that combines traditional reforms with digital innovation. While challenges such as teacher shortages, outdated methods, and inequality remain significant, digital technologies offer powerful solutions. As shown in this study, improving access to technology, modernizing teaching approaches, and strengthening collaboration can significantly enhance education quality. Therefore, both national policies and individual efforts are essential for sustainable educational development.</p>
+            <p>Achieving SDG-11 in Kyrgyzstan is not an impossible task, but it requires a fundamental shift in urban policy. By moving away from chaotic expansion and embracing green urbanism, slow mobility, and decentralized planning, Bishkek and other cities can transform into sustainable communities. Learning from international experiences like Germany's while preserving our local identity will allow us to build cities that are fit for future generations.</p>
 
             <h2>References</h2>
             <ol>
-                <li>United Nations. (2015). Transforming our world: The 2030 agenda for sustainable development. <a href="https://sdgs.un.org/2030agenda" target="_blank">https://sdgs.un.org/2030agenda</a>[cite: 1]</li>
-                <li>UNICEF. (2021). Situation of children in Kyrgyzstan. <a href="https://www.unicef.org/kyrgyzstan" target="_blank">https://www.unicef.org/kyrgyzstan</a>[cite: 2]</li>
-                <li>Ministry of Education and Science of the Kyrgyz Republic. (2025). Addressing teacher shortages in Kyrgyzstan. <a href="https://en.kabar.kg/news/kyrgyz-ministry-of-education-addressing-its-teacher-shortage/" target="_blank">https://en.kabar.kg/news/kyrgyz-ministry-of-education-addressing-its-teacher-shortage/</a>[cite: 3]</li>
-                <li>24.kg. (2025). Kyrgyzstan lacks over 1300 teachers. <a href="https://24.kg/english/302910_Kyrgyzstan_lacks_over_1300_teachers/" target="_blank">https://24.kg/english/302910_Kyrgyzstan_lacks_over_1300_teachers/</a>[cite: 4]</li>
-                <li>Sputnik Kyrgyzstan. (2026). Overcrowding in schools and education reform in Kyrgyzstan. <a href="https://ru.sputnik.kg/20260105/kyrgyzstan-shkoly-perepolnennost-12-letnee-obrazovanie-zhaparov-1099007102.html" target="_blank">Link</a>[cite: 5]</li>
-                <li>UNESCO. (2022). Education and digital inequality: Global monitoring report. <a href="https://www.unesco.org" target="_blank">https://www.unesco.org</a></li>
-                <li>Schools2030. (2026). Kyrgyzstan country report. <a href="https://schools2030.org/wp-content/uploads/2026/02/S2030-KyrgyzstanCountryReport-FINAL.pdf" target="_blank">Link</a></li>
-                <li>World Bank. (2020). Teachers and education quality: Policy insights. <a href="https://www.worldbank.org" target="_blank">https://www.worldbank.org</a></li>
+                <li>United Nations. <em>The 2030 Agenda for Sustainable Development</em>. Sustainable Development Goals, 2015.</li>
+                <li>Bishkek Urban Planning and Environmental Reports. Green Urbanism Index, 2023.</li>
+                <li>The "Slow City" (Cittaslow) Movement Guidelines for Urban Development, 2021.</li>
             </ol>
         `
     },
 
     "plate-to-speech-sdg3": {
-        issue: "Пилотный выпуск №0",
+        issue: "Pilot Issue (№ 0) · SDG 3",
         title: "From Plate to Speech: How Nutritional Lifestyle and Culture Shape Language and Interaction",
-        author: "Research Group, Ala-Too International University & Osh State University",
+        author: "Musabekov Meder, Bolotbekova Aigerim (Supervisor: Eshenkulova Adina)",
         content: `
-            <h2>1. Introduction</h2>
+            <p><strong>Students:</strong> Musabekov Meder, Bolotbekova Aigerim<br>
+            <strong>Supervisor:</strong> Eshenkulova Adina</p>
+            
+            <hr>
+
+            <h3>1. Introduction</h3>
             <p>In the modern academic environment, philology is often perceived as a purely mental discipline, focused primarily on syntax, semantics, and literary analysis. However, we believe that the linguistic performance of a student is deeply rooted in their physical well-being. This research addresses a vital question: to what extent do nutritional lifestyle and communal dining cultures influence the cognitive skills and communicative harmony of university students? Our project aligns with SDG 3 (Good Health and Well-being). We argue that cognitive clarity—the primary tool for any philologist—requires high-quality "fuel" to function effectively, especially within a demanding bilingual environment.</p>
 
-            <h2>2. Literature Review: Food as a Sign System</h2>
+            <h3>2. Literature Review: Food as a Sign System</h3>
             <p>To understand the link between food and speech, we must view food as a form of communication. Roland Barthes (1961) famously argued that food is a "system of communication, a body of images, and a protocol of usages". In our regional context, this is powerfully illustrated through the works of Chingiz Aitmatov. In his novel <em>The Day Lasts More Than a Hundred Years</em>, the tragedy of the mankurt—a person stripped of their language and identity—is achieved through extreme physical and nutritional deprivation.</p>
-            <p>In a modern sense, we observe a form of "digital mankurtism," where students replace traditional, nutrient-dense meals with fast food. This shift does not just affect the body; it simplifies the language itself. When the ritual of the Dastarkhan (communal dining) is lost, the "high-context" communication typical of Kyrgyz culture—where meaning is found in gestures, shared bread, and slow dialogue—is replaced by the "low-context," superficial interaction of the fast-food era.</p>
             
+            <p>In a modern sense, we observe a form of "digital man-kurtism," where students replace traditional, nutrient-dense meals with fast food. This shift does not just affect the body; it simplifies the language itself. When the ritual of the Dastarkhan (communal dining) is lost, the "high-context" communication typical of Kyrgyz culture—where meaning is found in gestures, shared bread, and slow dialogue—is replaced by the "low-context," superficial interaction of the fast-food era.</p>
+
             <p><strong>References & Cultural Links:</strong></p>
             <ul>
-                <li>Barthes, R. (1961). <em>Toward a Psychosociology of Contemporary Food Consumption</em>.</li>
-                <li>Aitmatov, Ch. (1980). <em>The Day Lasts More Than a Hundred Years</em>.</li>
-                <li>Kyrgyz Proverb: "Attyn syry eesine malym, ashtyn syry iichesine malym" (The secret of the horse is known to its owner; the secret of the food is known to the one who eats it).</li>
+                <li>Barthes, R. (1961). Toward a Psychosociology of Contemporary Food Consumption.</li>
+                <li>Aitmatov, Ch. (1980). The Day Lasts More Than a Hundred Years.</li>
+                <li>Kyrgyz Proverb: <em>"Attyn syry eesine malym, ashtyn syry iichesine malym"</em> (The secret of the horse is known to its owner; the secret of the food is known to the one who eats it).</li>
             </ul>
 
-            <h2>3. Materials and Methods</h2>
+            <h3>3. Materials and Methods</h3>
             <p>Our research followed a multi-method approach. First, we conducted a quantitative survey among 100 students (mostly female) at Ala-Too International University and Osh State University. The survey focused on the correlation between diet types and perceived academic performance. Secondly, we conducted qualitative interviews with two experts: a professional nutritionist and a university psychologist. We explored whether specific dietary habits, such as hydration levels and the intake of Omega-3 and Iron, directly affect a student’s ability to concentrate during complex linguistic tasks. These interviews provided a scientific foundation to bridge the gap between biological health and the creative process of writing and speaking.</p>
 
-            <h2>4. Results and Data Analysis</h2>
+            <h3>4. Results and Data Analysis</h3>
             <p>The data from our 100-student survey provided several key insights:</p>
             <ul>
                 <li><strong>The "Brain Fog" Factor:</strong> 72% of respondents admitted that consuming high-sugar "fast fuel" during exam periods led to decreased concentration and "linguistic fatigue" (difficulty in vocabulary retrieval).</li>
@@ -348,26 +270,36 @@ const articlesData = {
             </ul>
             <p>Our interview with the university psychologist confirmed that hydration and stable glucose levels are essential for "Working Memory"—the cognitive function used to translate thoughts from Kyrgyz or Russian into English.</p>
 
-            <h2>5. Discussion: Communication and the Dastarkhan</h2>
+            <h3>5. Discussion: Communication and the Dastarkhan</h3>
             <p>The most profound finding of our research is that food serves as a "communicative platform". In Kyrgyz history, the figure of Kurmanjan Datka exemplifies this. Her historical influence was often exercised through the protocol of the meal and the power of non-verbal cues, such as a simple nod of the head. This proves that communication is not just about words; it is about the state of the person speaking.</p>
+
             <p>Today, we see a rise in social misunderstandings and even divorce rates. We hypothesize that this "breakdown in communication" is partially linked to the loss of shared dining spaces. When we eat quickly and in isolation, we lose the patience required for deep, empathetic dialogue. For a philology student, losing this patience means losing the ability to analyze complex literary texts or engage in nuanced intercultural communication.</p>
 
             <p><strong>References & Cultural Links:</strong></p>
             <ul>
                 <li>History of Kurmanjan Datka: The Queen of the Alai and her diplomatic dining protocols.</li>
-                <li>Kyrgyz Proverb: "Chaida - bereke, nanda - kuth" (There is blessing in tea and grace in bread).</li>
+                <li>Kyrgyz Proverb: <em>"Chaida - bereke, nanda - kuth"</em> (There is blessing in tea and grace in bread).</li>
             </ul>
 
-            <h2>6. Conclusion and Product</h2>
+            <h3>6. Conclusion and Product</h3>
             <p>Our research concludes that "what is on the plate eventually appears in the speech". A student-philologist cannot reach their full potential on a diet of "linguistic and nutritional junk". As a result of this project, we have developed a Linguistic-Nutritional Guide. This product links specific foods (like fish for Omega-3 or traditional talkan) to specific academic benefits, such as improved vocabulary retention and creative writing stamina. By reviving the culture of mindful, communal eating, we can preserve both our physical health and the richness of our linguistic heritage.</p>
 
-            <h2>Final References</h2>
+            <hr>
+
+            <h3>Final References</h3>
             <ol>
                 <li>UN Sustainable Development Goals (SDG 3): Good Health and Well-being.</li>
-                <li>Barthes, Roland. <em>The Messages of Food</em>.</li>
-                <li>Aitmatov, Chingiz. <em>The Day Lasts More Than a Hundred Years</em>.</li>
+                <li>Barthes, Roland. The Messages of Food.</li>
+                <li>Aitmatov, Chingiz. The Day Lasts More Than a Hundred Years.</li>
                 <li>Ala-Too & Osh State University Student Survey Data (April 2026).</li>
                 <li>Nutrition and Cognition: Expert interview transcripts with university healthcare professionals.</li>
+                <li>Fishke, J. (1989). Introduction to Communication Studies. Routledge.</li>
+                <li>Kirshenblatt-Gimblett, B. (1999). Destination Culture: Tourism, Museums, and Heritage. University of California Press.</li>
+                <li>Counihan, C., & Van Esterik, P. (2008). Food and Culture: A Reader. Routledge.</li>
+                <li>Visser, M. (1991). The Rituals of Dinner: The Origins, Evolution, Manners, and Meaning of Table Manners. Penguin Books.</li>
+                <li>Mintz, S. W. (1996). Tasting Food, Tasting Freedom: Excursions into Eating, Culture, and the Past. Beacon Press.</li>
+                <li>Levinson, S. C. (1983). Pragmatics. Cambridge University Press.</li>
+                <li>Crystal, D. (2001). Language and the Internet. Cambridge University Press.</li>
             </ol>
         `
     }

@@ -44,6 +44,7 @@
             border-bottom: 1px solid var(--border-color);
             padding-bottom: 25px;
             margin-bottom: 40px;
+            position: relative; /* Нужно для позиционирования логотипа справа */
         }
 
         .header-tag {
@@ -75,6 +76,16 @@
             text-transform: uppercase;
             letter-spacing: 0.15em;
             color: #555;
+        }
+
+        /* Логотип строго справа в шапке, не двигает текст */
+.header-logo {
+            position: absolute;
+            right: 1px;
+            top: -125px; /* чуть подняли, чтобы сбалансировать по высоте с заголовком */
+            width: 350px; /* сделай 180px, если захочешь еще крупнее */
+            height: auto;
+            mix-blend-mode: multiply; /* чтобы белый фон картинки оставался невидимым */
         }
 
         .intro-ru {
@@ -154,6 +165,9 @@
         <div class="header-tag">SPATIUM CULTURAE /// ACADEMIA</div>
         <div class="site-title">SPACE OF CULTURE</div>
         <div class="site-subtitle">HUMANITIES & CULTURAL STUDIES · INDEPENDENT JOURNAL</div>
+        
+        <!-- Логотип аккуратно в правом верхнем углу шапки -->
+       <img src="logo.png" alt="Logo" class="header-logo">
     </header>
 
     <main>
@@ -164,17 +178,15 @@
             An undergraduate journal dedicated to humanities and culture. Our goal is to foster dialogue and thought within the cultural space.
         </div>
 
-        <!-- Первая строка теперь Для авторов -->
         <div class="section-title">
             <a href="authors.html">ДЛЯ АВТОРОВ / FOR AUTHORS</a>
         </div>
 
-        <!-- Ниже идет архив -->
         <div class="section-title">
             АРХИВ / ARCHIVE
         </div>
 
-        <div class="year-title">2026</div>
+        <div class="year-title">2027</div>
 
         <div class="issue-link-block">
             <a href="issue-0.html">№ 0 · Pilot Issue (Пилотный выпуск)</a>
