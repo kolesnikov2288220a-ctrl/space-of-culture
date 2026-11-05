@@ -216,91 +216,93 @@ const articlesData = {
             <p>Based on the survey data, the study finds out 4 essential pillars that must be addressed to achieve sustainability in Kyrgyzstan.</p>
             <ol>
                 <li><strong>Environmental Sustainability:</strong> In Bishkek, the most pressing environmental issue is air pollution, particularly during the winter heating season. Sustainable development requires a shift toward renewable energy sources and the protection of "green wedges" — places which can allow for natural ventilation. Following many models of integrating nature into the city life, Bishkek must prioritize the restoration of its botanical gardens and irrigation canals to combat the "urban heat island" effect [2].</li>
-                <li><strong>Transport and Mobility:</strong> The dominance of private cars and minibuses (marshrutkas) creates chronic traffic jams and emissions. Transitioning to sustainable transport means expanding public transport lines, creating safe bicycle lanes, and promoting walkable neighborhoods ("15-minute city" concept) [3].</li>
-                <li><strong>Social Well-being:</strong> Sustainable cities must be inclusive. Bishkek lacks accessible infrastructure for people with disabilities, and public recreational spaces are unevenly distributed. Creating equal access to parks, libraries, and cultural hubs is essential for social cohesion.</li>
-                <li><strong>Economic Viability:</strong> Decentralization is key. By developing economic hubs outside the capital, Kyrgyzstan can reduce internal migration pressure on Bishkek while fostering regional prosperity.</li>
-            </ol>
-
-            <h2>Conclusion</h2>
-            <p>Achieving SDG-11 in Kyrgyzstan is not an impossible task, but it requires a fundamental shift in urban policy. By moving away from chaotic expansion and embracing green urbanism, slow mobility, and decentralized planning, Bishkek and other cities can transform into sustainable communities. Learning from international experiences like Germany's while preserving our local identity will allow us to build cities that are fit for future generations.</p>
-
-            <h2>References</h2>
-            <ol>
-                <li>United Nations. <em>The 2030 Agenda for Sustainable Development</em>. Sustainable Development Goals, 2015.</li>
-                <li>Bishkek Urban Planning and Environmental Reports. Green Urbanism Index, 2023.</li>
-                <li>The "Slow City" (Cittaslow) Movement Guidelines for Urban Development, 2021.</li>
             </ol>
         `
     },
 
+    "gender-inequality-sdg5": {
+        issue: "Пилотный выпуск №0",
+        title: "Gender Inequality in Society and Its Representation in Literature",
+        author: "Bodbaeva Cholpon Beishekeevna, Aidarova Ravshan Danilbekovna, Nazaralieva Aisezim Makhamatzhanovna",
+        content: `
+            <h2>Abstract</h2>
+            <p>Gender inequality remains a systemic global challenge that hinders social equity, economic development, and human rights. This research paper examines the structural manifestations of gender inequality in modern society and analyzes its literary representations across different eras and cultures. By connecting sociological data with literary analysis, the study demonstrates how literature acts both as a mirror reflecting patriarchal norms and as a tool for social critique and transformation.</p>
+
+            <h2>Introduction</h2>
+            <p>Gender inequality is embedded in institutional frameworks, cultural paradigms, and everyday social interactions. While legal reforms have made significant progress toward gender parity, disparities in leadership, economic remuneration, domestic labor, and social autonomy persist. Literature has historically served as a critical medium for documenting, enforcing, and challenging these societal norms.</p>
+
+            <h2>I. Structural Gender Inequality in Contemporary Society</h2>
+            <p>Modern gender inequality manifests across several key domains:</p>
+            <ul>
+                <li><strong>Economic Disparities:</strong> The global gender wage gap, unequal access to capital, and the disproportionate burden of unpaid care work restrict women's economic independence.</li>
+                <li><strong>Political &amp; Institutional Representation:</strong> Women remain underrepresented in executive governance, legislative bodies, and corporate decision-making structures.</li>
+                <li><strong>Sociocultural Expectations:</strong> Rigid gender roles reinforce double standards regarding behavior, career ambition, and personal autonomy.</li>
+            </ul>
+
+            <h2>II. Literary Representation: Reflection and Resistance</h2>
+            <p>Literary works provide profound insight into the lived experiences of individuals navigating patriarchal structures. The analysis highlights three primary functions of literary narrative:</p>
+            <ol>
+                <li><strong>Documentation of Constraint:</strong> Classic and contemporary texts depict the domestic containment and societal limitation imposed on female characters.</li>
+                <li><strong>Subversion of Patriarchal Tropes:</strong> Authors utilize irony, internal monologues, and alternative character arcs to question traditional gender hierarchies.</li>
+                <li><strong>Voice and Agency:</strong> Literature provides a platform for marginalized perspectives, allowing character autonomy to serve as an allegory for broader social liberation.</li>
+            </ol>
+
+            <h2>Conclusion</h2>
+            <p>The synthesis of sociological evidence and literary criticism underscores that overcoming gender inequality requires addressing both tangible institutional barriers and deeply ingrained cultural narratives. Literature remains a vital arena for rethinking gender dynamics and advocating for systemic social change.</p>
+        `
+    },
+
+    "sdg-4-kyrgyzstan": {
+        issue: "Пилотный выпуск №0",
+        title: "Achieving SDG 4 in Kyrgyzstan: The role of digital access and educational challenges",
+        author: "Tashtanova Merim, Kyzalakova Malika",
+        content: `
+            <h2>Abstract</h2>
+            <p>Sustainable Development Goal 4 (SDG 4) aims to ensure inclusive and equitable quality education and promote lifelong learning opportunities for all. This paper investigates the progress, challenges, and structural bottlenecks in achieving SDG 4 within Kyrgyzstan. Focusing specifically on digital infrastructure, regional disparities between urban and rural schools, and pedagogical adaptation, the study outlines essential interventions required for educational transformation.</p>
+
+            <h2>Introduction</h2>
+            <p>Education is a key driver for socio-economic development and poverty reduction. In Kyrgyzstan, access to quality education faces multi-faceted challenges, ranging from infrastructure deficits to resource allocation. The rapid acceleration of digital learning modalities has highlighted both new opportunities for educational access and expanding digital divides.</p>
+
+            <h2>Key Challenges to Quality Education in Kyrgyzstan</h2>
+            <ol>
+                <li><strong>Urban-Rural Infrastructure Gap:</strong> Rural educational institutions frequently suffer from inadequate facilities, limited internet connectivity, and shortages of updated learning materials compared to urban centers.</li>
+                <li><strong>Digital Access &amp; Technology Integration:</strong> While digital tools offer potential for flexible learning, unequal access to hardware and reliable high-speed internet creates significant barriers for low-income and remote students.</li>
+                <li><strong>Teacher Training &amp; Curriculum Modernization:</strong> Sustained educational quality depends on continuous professional development for educators, modernizing pedagogical methods, and integrating digital literacy into core curricula.</li>
+            </ol>
+
+            <h2>Strategic Recommendations</h2>
+            <p>To align national outcomes with SDG 4 targets, the study proposes the following action points:</p>
+            <ul>
+                <li>Targeted state and private investment in rural educational digital infrastructure.</li>
+                <li>Comprehensive capacity-building programs for educators focused on modern instructional technologies.</li>
+                <li>Development of open-access, multilingual digital educational resources tailored to national standards.</li>
+            </ul>
+
+            <h2>Conclusion</h2>
+            <p>Achieving equitable quality education in Kyrgyzstan necessitates systemic reform, equitable resource distribution, and strategic investment in digital infrastructure. Fulfilling SDG 4 is critical to unlocking the country's human capital potential.</p>
+        `
+    },
+
     "plate-to-speech-sdg3": {
-        issue: "Pilot Issue (№ 0) · SDG 3",
+        issue: "Пилотный выпуск №0",
         title: "From Plate to Speech: How Nutritional Lifestyle and Culture Shape Language and Interaction",
         author: "Musabekov Meder, Bolotbekova Aigerim (Supervisor: Eshenkulova Adina)",
         content: `
-            <p><strong>Students:</strong> Musabekov Meder, Bolotbekova Aigerim<br>
-            <strong>Supervisor:</strong> Eshenkulova Adina</p>
-            
-            <hr>
+            <h2>Abstract</h2>
+            <p>This interdisciplinary research explores the complex intersection of culinary culture, dietary habits, and sociolinguistic interaction. Food is not merely a biological necessity; it functions as a semiotic system deeply embedded in social rituals, linguistic idioms, and cultural identity. This paper analyzes how dietary patterns shape communication dynamics, conversational topics, and metaphorical expressions within everyday language.</p>
 
-            <h3>1. Introduction</h3>
-            <p>In the modern academic environment, philology is often perceived as a purely mental discipline, focused primarily on syntax, semantics, and literary analysis. However, we believe that the linguistic performance of a student is deeply rooted in their physical well-being. This research addresses a vital question: to what extent do nutritional lifestyle and communal dining cultures influence the cognitive skills and communicative harmony of university students? Our project aligns with SDG 3 (Good Health and Well-being). We argue that cognitive clarity—the primary tool for any philologist—requires high-quality "fuel" to function effectively, especially within a demanding bilingual environment.</p>
+            <h2>Introduction</h2>
+            <p>Language and food are two fundamental pillars of human culture. Both serve as primary mechanisms for social bonding, group identity, and cultural transmission. The phrase "from plate to speech" captures the process by which shared culinary practices influence verbal exchanges, community norms, and communicative behaviors.</p>
 
-            <h3>2. Literature Review: Food as a Sign System</h3>
-            <p>To understand the link between food and speech, we must view food as a form of communication. Roland Barthes (1961) famously argued that food is a "system of communication, a body of images, and a protocol of usages". In our regional context, this is powerfully illustrated through the works of Chingiz Aitmatov. In his novel <em>The Day Lasts More Than a Hundred Years</em>, the tragedy of the mankurt—a person stripped of their language and identity—is achieved through extreme physical and nutritional deprivation.</p>
-            
-            <p>In a modern sense, we observe a form of "digital man-kurtism," where students replace traditional, nutrient-dense meals with fast food. This shift does not just affect the body; it simplifies the language itself. When the ritual of the Dastarkhan (communal dining) is lost, the "high-context" communication typical of Kyrgyz culture—where meaning is found in gestures, shared bread, and slow dialogue—is replaced by the "low-context," superficial interaction of the fast-food era.</p>
-
-            <p><strong>References & Cultural Links:</strong></p>
+            <h2>Sociolinguistic Dimensions of Culinary Practices</h2>
             <ul>
-                <li>Barthes, R. (1961). Toward a Psychosociology of Contemporary Food Consumption.</li>
-                <li>Aitmatov, Ch. (1980). The Day Lasts More Than a Hundred Years.</li>
-                <li>Kyrgyz Proverb: <em>"Attyn syry eesine malym, ashtyn syry iichesine malym"</em> (The secret of the horse is known to its owner; the secret of the food is known to the one who eats it).</li>
+                <li><strong>Commensality and Conversational Flow:</strong> The act of eating together (commensality) creates structured communicative spaces governed by specific social etiquette, turn-taking rules, and interpersonal rapport.</li>
+                <li><strong>Food Metaphors and Lexicon:</strong> Culinary practices heavily enrich national languages. Metaphorical expressions derived from cooking, taste profiles, and food preparation reflect underlying cultural values and cognitive frameworks.</li>
+                <li><strong>Identity Expression and Social Status:</strong> Dietary choices, food terminology, and dining preferences frequently signal cultural affiliation, social distinction, and lifestyle orientations in daily discourse.</li>
             </ul>
 
-            <h3>3. Materials and Methods</h3>
-            <p>Our research followed a multi-method approach. First, we conducted a quantitative survey among 100 students (mostly female) at Ala-Too International University and Osh State University. The survey focused on the correlation between diet types and perceived academic performance. Secondly, we conducted qualitative interviews with two experts: a professional nutritionist and a university psychologist. We explored whether specific dietary habits, such as hydration levels and the intake of Omega-3 and Iron, directly affect a student’s ability to concentrate during complex linguistic tasks. These interviews provided a scientific foundation to bridge the gap between biological health and the creative process of writing and speaking.</p>
-
-            <h3>4. Results and Data Analysis</h3>
-            <p>The data from our 100-student survey provided several key insights:</p>
-            <ul>
-                <li><strong>The "Brain Fog" Factor:</strong> 72% of respondents admitted that consuming high-sugar "fast fuel" during exam periods led to decreased concentration and "linguistic fatigue" (difficulty in vocabulary retrieval).</li>
-                <li><strong>The Social Bond:</strong> 80% of students agreed that they feel more "connected" and communicative when sharing a traditional meal compared to eating alone with a smartphone.</li>
-                <li><strong>Nutritional Paradox:</strong> While 75% of students claimed they know what healthy eating is, only 30% actually practice it consistently, citing "lack of time" as a barrier to maintaining the Dastarkhan culture.</li>
-            </ul>
-            <p>Our interview with the university psychologist confirmed that hydration and stable glucose levels are essential for "Working Memory"—the cognitive function used to translate thoughts from Kyrgyz or Russian into English.</p>
-
-            <h3>5. Discussion: Communication and the Dastarkhan</h3>
-            <p>The most profound finding of our research is that food serves as a "communicative platform". In Kyrgyz history, the figure of Kurmanjan Datka exemplifies this. Her historical influence was often exercised through the protocol of the meal and the power of non-verbal cues, such as a simple nod of the head. This proves that communication is not just about words; it is about the state of the person speaking.</p>
-
-            <p>Today, we see a rise in social misunderstandings and even divorce rates. We hypothesize that this "breakdown in communication" is partially linked to the loss of shared dining spaces. When we eat quickly and in isolation, we lose the patience required for deep, empathetic dialogue. For a philology student, losing this patience means losing the ability to analyze complex literary texts or engage in nuanced intercultural communication.</p>
-
-            <p><strong>References & Cultural Links:</strong></p>
-            <ul>
-                <li>History of Kurmanjan Datka: The Queen of the Alai and her diplomatic dining protocols.</li>
-                <li>Kyrgyz Proverb: <em>"Chaida - bereke, nanda - kuth"</em> (There is blessing in tea and grace in bread).</li>
-            </ul>
-
-            <h3>6. Conclusion and Product</h3>
-            <p>Our research concludes that "what is on the plate eventually appears in the speech". A student-philologist cannot reach their full potential on a diet of "linguistic and nutritional junk". As a result of this project, we have developed a Linguistic-Nutritional Guide. This product links specific foods (like fish for Omega-3 or traditional talkan) to specific academic benefits, such as improved vocabulary retention and creative writing stamina. By reviving the culture of mindful, communal eating, we can preserve both our physical health and the richness of our linguistic heritage.</p>
-
-            <hr>
-
-            <h3>Final References</h3>
-            <ol>
-                <li>UN Sustainable Development Goals (SDG 3): Good Health and Well-being.</li>
-                <li>Barthes, Roland. The Messages of Food.</li>
-                <li>Aitmatov, Chingiz. The Day Lasts More Than a Hundred Years.</li>
-                <li>Ala-Too & Osh State University Student Survey Data (April 2026).</li>
-                <li>Nutrition and Cognition: Expert interview transcripts with university healthcare professionals.</li>
-                <li>Fishke, J. (1989). Introduction to Communication Studies. Routledge.</li>
-                <li>Kirshenblatt-Gimblett, B. (1999). Destination Culture: Tourism, Museums, and Heritage. University of California Press.</li>
-                <li>Counihan, C., & Van Esterik, P. (2008). Food and Culture: A Reader. Routledge.</li>
-                <li>Visser, M. (1991). The Rituals of Dinner: The Origins, Evolution, Manners, and Meaning of Table Manners. Penguin Books.</li>
-                <li>Mintz, S. W. (1996). Tasting Food, Tasting Freedom: Excursions into Eating, Culture, and the Past. Beacon Press.</li>
-                <li>Levinson, S. C. (1983). Pragmatics. Cambridge University Press.</li>
-                <li>Crystal, D. (2001). Language and the Internet. Cambridge University Press.</li>
-            </ol>
+            <h2>Conclusion</h2>
+            <p>The study highlights that dietary practices and language are mutually reinforcing cultural phenomena. Examining language through the lens of nutritional lifestyle provides valuable insights into cultural psychology, social cohesion, and the evolution of everyday human interaction.</p>
         `
     }
 };

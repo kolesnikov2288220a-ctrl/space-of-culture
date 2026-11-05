@@ -35,7 +35,7 @@
             width: 100vw;
             height: 100vh;
             pointer-events: none;
-            z-index: 999;
+            z-index: 1; /* Опустили слой шума ниже логотипа */
             opacity: 0.22;
             background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
         }
@@ -44,7 +44,7 @@
             border-bottom: 1px solid var(--border-color);
             padding-bottom: 25px;
             margin-bottom: 40px;
-            position: relative; /* Нужно для позиционирования логотипа справа на ПК */
+            position: relative;
         }
 
         .header-tag {
@@ -78,14 +78,14 @@
             color: #555;
         }
 
-        /* Логотип для ПК (твои настройки) */
+        /* Логотип для ПК */
         .header-logo {
             position: absolute;
             right: 1px;
             top: -125px;
             width: 350px;
             height: auto;
-            mix-blend-mode: multiply;
+            z-index: 10;
         }
 
         /* Адаптив для телефонов (экраны меньше 768px) */
@@ -93,16 +93,16 @@
             header {
                 position: relative;
                 text-align: center;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+                padding-top: 130px; /* Выделяем место сверху под логотип */
             }
 
             .header-logo {
-                position: static; /* убираем абсолютное позиционирование, чтобы логотип встал сверху */
-                width: 240px;     /* аккуратный размер для мобилки */
-                margin-bottom: 15px; /* отступ от логотипа до текста заголовка */
-                transform: none;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 140px; /* Нормальный размер для телефона */
+                right: auto;
             }
         }
 
@@ -180,12 +180,11 @@
 <body>
 
     <header>
-        <!-- Логотип стоит первым, поэтому на мобилке он окажется сверху над текстом -->
-        <img src="logo.png" alt="Logo" class="header-logo">
-
         <div class="header-tag">SPATIUM CULTURAE /// ACADEMIA</div>
         <div class="site-title">SPACE OF CULTURE</div>
         <div class="site-subtitle">HUMANITIES & CULTURAL STUDIES · INDEPENDENT JOURNAL</div>
+        
+        <img src="logo.png" alt="Logo" class="header-logo">
     </header>
 
     <main>
